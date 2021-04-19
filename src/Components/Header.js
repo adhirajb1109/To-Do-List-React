@@ -28,9 +28,7 @@ function Header(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
-                  {props.linkPage}
-                </Link>
+                <a className="nav-link active" href="mailto:adhirajb1109@gmail.com">Contact Developer</a>
               </li>
             </ul>
             {props.search ? (

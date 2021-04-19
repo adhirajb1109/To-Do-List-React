@@ -3,7 +3,6 @@ import Header from "./Components/Header";
 import ToDos from "./Components/ToDos";
 import Footer from "./Components/Footer";
 import AddToDo from "./Components/AddToDo";
-import About from "./Components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 function App() {
@@ -57,10 +56,7 @@ function App() {
               );
             }}
           ></Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-        </Switch>
+          </Switch>
         <Footer />
       </Router>
     </div>
