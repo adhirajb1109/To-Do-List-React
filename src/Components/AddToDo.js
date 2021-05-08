@@ -11,11 +11,11 @@ export default function AddToDo(props) {
   };
   return (
     <div className="container my-3">
-      <h3>Add A To-Do</h3>
+      <h3>Add A Task</h3>
       <form onSubmit={submit}>
         <div className="my-3">
           <label htmlFor="title" className="form-label">
-            Enter To-Do Title :{" "}
+            Enter Task Title :{" "}
           </label>
           <input
             type="text"
@@ -31,7 +31,7 @@ export default function AddToDo(props) {
         </div>
         <div className="my-3">
           <label htmlFor="description" className="form-label">
-            Enter To-Do Description :
+            Enter Task Description :
           </label>
           <input
             type="text"
@@ -45,7 +45,7 @@ export default function AddToDo(props) {
           />
         </div>
         <button type="submit" className="btn btn-sm btn-success">
-          Add
+          Add A Task
         </button>
       </form>
     </div>

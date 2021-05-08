@@ -6,10 +6,7 @@ function ToDos(props) {
   };
   return (
     <div className="container my-3" style={style}>
-      <h3 className="text-center my-3">To-Do List</h3>
-      {props.todos.length === 0
-        ? "Add A To-Do"
-        : props.todos.map((todo) => {
+      {props.todos.map((todo) => {
             return (
               <div>
                 <ToDo

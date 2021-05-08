@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 .App {
-    text-align:center;
-    font-family: Merriweather , serif;
+  text-align: center;
+  font-family: Itim, cursive;
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
